@@ -7,11 +7,11 @@ import java.time.LocalDateTime
 object ResponseBuilder {
 
     fun <T> buildSuccessResponse(data: MutableList<T> = mutableListOf()): ResponseModel<T> {
-        return ResponseModel(ResponseModelStatus.SUCCESS, data, LocalDateTime.now(), mutableListOf())
+        return ResponseModel(ResponseModelStatus.SUCCESS, data, mutableListOf(), LocalDateTime.now())
     }
 
     fun buildFailureResponse(errors: MutableList<String?>?): ResponseModel<Any> {
-        return ResponseModel(ResponseModelStatus.FAILURE, mutableListOf(), LocalDateTime.now(), errors)
+        return ResponseModel(ResponseModelStatus.FAILURE, mutableListOf(), errors, LocalDateTime.now())
     }
 
     private object ResponseModelStatus {

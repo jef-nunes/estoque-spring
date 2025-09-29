@@ -2,7 +2,7 @@ package com.example.projeto_spring.services
 
 import com.example.projeto_spring.api.dto.request.ProdutoRequestDto
 import com.example.projeto_spring.exceptions.CustomResourceNotFoundException
-import com.example.projeto_spring.models.Produto
+import com.example.projeto_spring.models.entities.Produto
 import com.example.projeto_spring.repositories.ProdutoRepository
 import org.springframework.stereotype.Service
 

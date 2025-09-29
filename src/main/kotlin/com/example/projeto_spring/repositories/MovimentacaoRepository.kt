@@ -1,6 +1,6 @@
 package com.example.projeto_spring.repositories
 
-import com.example.projeto_spring.models.Movimentacao
+import com.example.projeto_spring.models.entities.Movimentacao
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 

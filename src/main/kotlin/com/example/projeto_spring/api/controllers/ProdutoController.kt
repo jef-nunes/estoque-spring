@@ -4,7 +4,7 @@ import com.example.projeto_spring.api.controllers.util.ResponseBuilder
 import com.example.projeto_spring.api.dto.util.ToResponseDto
 import com.example.projeto_spring.api.dto.request.ProdutoRequestDto
 import com.example.projeto_spring.api.dto.response.ProdutoResponseDto
-import com.example.projeto_spring.models.Produto
+import com.example.projeto_spring.models.entities.Produto
 import com.example.projeto_spring.models.ResponseModel
 import com.example.projeto_spring.services.ProdutoService
 import jakarta.validation.Valid
