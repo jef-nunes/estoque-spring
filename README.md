@@ -1,5 +1,5 @@
 ### Sobre
-Backend para gerenciamento de estoque desenvolvido com Kotlin e Spring Framework. Para gerenciamento do projeto foi escolhido o Maven.
+API REST para gerenciamento de estoque desenvolvido com Kotlin e Spring Framework. Para gerenciamento do projeto foi escolhido o Maven.
 <br>
 <br>
 
